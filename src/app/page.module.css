@@ -124,11 +124,15 @@
 
 @media (max-width: 390px) {
     .wrapper {
-        margin-top: 40px;
+        margin-top: 10px;
+        gap: 0px;
+    }
+    .videoText {
+      font-size: 20px;
     }
 
   .intro {
-    font-size: 22px;
+    font-size: 15px;
     text-align: center;
     margin-top: 50px;
     height: 30vh;
