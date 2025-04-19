@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div className={styles.intro}>
-        <h2 className={styles.introText}>Избири жизнь!</h2>
+        {/* <h2 className={styles.introText}>Избири жизнь!</h2> */}
       </div>
       <div className={styles.section}>
         <div className={styles.video}>
