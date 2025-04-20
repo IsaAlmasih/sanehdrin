@@ -30,8 +30,8 @@ export default function Home() {
       </div>
       <div className={styles.section}>
         <center>
-          <h2>День 20.04.2025 год.</h2>
-        {/* <Link href="/">Приговоры.</Link> */}
+          <h2>День 19.04.2025 год.</h2>
+          {/* <Link href="/">Приговоры.</Link> */}
           <h3 className={styles.videoText}>
             Вопросы и информацию присылайте пожалуйста на почту
             tsarstvie.ru@gmail.com
@@ -42,6 +42,22 @@ export default function Home() {
             width="720"
             height="405"
             src="https://rutube.ru/play/embed/6303c98ad49957d60192321a9b56e9c1/"
+            allow="clipboard-write; autoplay"
+          ></iframe>
+        </div>
+        <div className={styles.video}>
+          <center>
+            <h2>День 20.04.2025 год.</h2>
+            {/* <Link href="/">Приговоры.</Link> */}
+            <h3 className={styles.videoText}>
+              Вопросы и информацию присылайте пожалуйста на почту
+              tsarstvie.ru@gmail.com
+            </h3>
+          </center>
+          <iframe
+            width="720"
+            height="405"
+            src="https://rutube.ru/play/embed/6d3c7f825bbcacdad80c9d82fba61597/"
             allow="clipboard-write; autoplay"
           ></iframe>
         </div>
