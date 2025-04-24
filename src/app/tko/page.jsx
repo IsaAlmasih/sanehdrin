@@ -1,5 +1,5 @@
 "use client";
-import styles from "./page.module.css";
+import styles from "./styles.module.css";
 // import ImageViewer from "react-simple-image-viewer";
 
 import { useCallback, useState } from "react";
@@ -12,7 +12,6 @@ import Link from "next/link";
 export default function Home() {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
-
 
   const openImageViewer = useCallback((index) => {
     setCurrentImage(index);
@@ -29,22 +28,9 @@ export default function Home() {
         {/* <h2 className={styles.introText}>Избири жизнь!</h2> */}
       </div>
       <div className={styles.section}>
-        <center>
-          {/* <h2>День 19.04.2025 год.</h2> */}
-          <Link href="/orsk">Проблемы города Орска.</Link>
-          <h3 className={styles.videoText}></h3>
-        </center>
-        {/* <div className={styles.video}>
-          <iframe
-            width="720"
-            height="405"
-            src="https://rutube.ru/play/embed/6303c98ad49957d60192321a9b56e9c1/"
-            allow="clipboard-write; autoplay"
-          ></iframe>
-        </div> */}
-        {/* <div className={styles.video}>
+        <div className={styles.video}>
           <center>
-            <h2>День 23.04.2025 год. Время 19.43 </h2>
+            <h2>День 24.04.2025 год.</h2>
             <h3 className={styles.videoText}>
               Вопросы и информацию присылайте пожалуйста на почту
               tsarstvie.ru@gmail.com
@@ -53,10 +39,10 @@ export default function Home() {
           <iframe
             width="720"
             height="405"
-            src="https://rutube.ru/play/embed/79ae842ced975391dfd9780f3e89103b/"
+            src="https://rutube.ru/play/embed/6d3c7f825bbcacdad80c9d82fba61597/"
             allow="clipboard-write; autoplay"
           ></iframe>
-        </div> */}
+        </div>
         <footer className={styles.footer}>
           <div className={styles.footerCol}>
             <h5 className={styles.footerHeading}>ИНН 860501286008:</h5>
@@ -81,13 +67,3 @@ export default function Home() {
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-

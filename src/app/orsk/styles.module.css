@@ -11,36 +11,20 @@
 }
 
 .intro {
-  background-image: url("../assets/0087.jpg");
+  background-image: url("../../assets/00033.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(6, 6, 6);
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 20px;
 }
 
-
-.introText {
-  align-items: center;
-  margin-top: 700px;
-  font-size: 66px;
-}
-
-
-.contacts {
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: start;
-  width: 100%;
-}
 
 .section {
   width: 100%;
@@ -50,23 +34,14 @@
   gap: 30px;
 }
 
-.about {
-  font-size: 25px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
+
+.tko {
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+    font-size: 30px;
 }
 
-.video iframe {
-  width: 100% !important;
-  min-width: none;
-  width: 50%;
-  margin-top: 50px;
-  height: auto;
-  aspect-ratio: 16/9;
-}
 
 .aboutTex {
   font-size: 25px;
@@ -167,6 +142,13 @@
     font-size: 10px;
     margin-top: 25px;
   }
+
+  .tko {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+}
 }
 
 .footer {

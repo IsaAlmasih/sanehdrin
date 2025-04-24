@@ -11,12 +11,12 @@
 }
 
 .intro {
-  background-image: url("../assets/0087.jpg");
+  background-image: url("../../assets/00033.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   color: rgb(6, 6, 6);
-  height: 60vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
