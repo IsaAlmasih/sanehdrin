@@ -28,12 +28,12 @@ export default function Home() {
       <div className={styles.intro}>
         {/* <h2 className={styles.introText}>Избири жизнь!</h2> */}
       </div>
+      <center>
+        {/* <h2>День 19.04.2025 год.</h2> */}
+        <Link href="/orsk">Проблемы города Орска.</Link>
+        <h3 className={styles.videoText}></h3>
+      </center>
       <div className={styles.section}>
-        <center>
-          {/* <h2>День 19.04.2025 год.</h2> */}
-          <Link href="/orsk">Проблемы города Орска.</Link>
-          <h3 className={styles.videoText}></h3>
-        </center>
         {/* <div className={styles.video}>
           <iframe
             width="720"
