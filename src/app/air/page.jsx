@@ -28,6 +28,21 @@ export default function Home() {
         {/* <h2 className={styles.introText}>Избири жизнь!</h2> */}
       </div>
       <div className={styles.section}>
+        <div className={styles.video}>
+          <center>
+            <h2>День 02.05.2025 год.</h2>
+            <h3 className={styles.videoText}>
+              Вопросы и информацию присылайте пожалуйста на почту
+              tsarstvie.ru@gmail.com
+            </h3>
+          </center>
+          <iframe
+            width="720"
+            height="405"
+            src="https://rutube.ru/play/embed/ff313741f459e4889bcf9c6a1eaec4a1/"
+            allow="clipboard-write; autoplay"
+          ></iframe>
+        </div>
         <center>
           <h2>День 19.04.2025 год.</h2>
           {/* <Link href="/">Приговоры.</Link> */}

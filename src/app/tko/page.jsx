@@ -30,7 +30,7 @@ export default function Home() {
       <div className={styles.section}>
         <div className={styles.video}>
           <center>
-            <h2>День 24.04.2025 год.</h2>
+            <h2>День 02.05.2025 год.</h2>
             <h3 className={styles.videoText}>
               Вопросы и информацию присылайте пожалуйста на почту
               tsarstvie.ru@gmail.com
@@ -39,7 +39,7 @@ export default function Home() {
           <iframe
             width="720"
             height="405"
-            src="https://rutube.ru/play/embed/6d3c7f825bbcacdad80c9d82fba61597/"
+            src="https://rutube.ru/play/embed/fa16c06769134b25781ac8873efd327c/"
             allow="clipboard-write; autoplay"
           ></iframe>
         </div>
