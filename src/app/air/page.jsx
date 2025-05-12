@@ -29,30 +29,9 @@ export default function Home() {
       </div>
       <div className={styles.section}>
         <div>
-          <div className={styles.video}>
-            <center>
-              <h2 className={styles.videoText}>День 02.05.2025 год.</h2>
-            </center>
-            <div className={styles.vidddeo}>
-              <iframe
-                src="https://rutube.ru/play/embed/ff313741f459e4889bcf9c6a1eaec4a1/"
-                allow="clipboard-write; autoplay"
-                webkitAllowFullScreen
-                mozallowfullscreen
-                allowFullScreen
-              ></iframe>
-            </div>
-          </div>
-          <center>
-            <h2 className={styles.videoText}>День 19.04.2025 год.</h2>
-            {/* <Link href="/">Приговоры.</Link> */}
-            {/* <h3 className={styles.videoText}>
-              Вопросы и информацию присылайте пожалуйста на почту
-              tsarstvie.ru@gmail.com
-            </h3> */}
-          </center>
-          <div className={styles.video}>
-            <div className={styles.vidddeo}>
+          <div>
+             <h2 className={styles.videoText}>День 19.04.2025 год.</h2>
+           <div className={styles.vidddeo}>
               <iframe
                 width="720"
                 height="405"
@@ -64,12 +43,35 @@ export default function Home() {
               ></iframe>
             </div>
           </div>
+          <div>
+              <h2 className={styles.videoText}>День 09 и 11.05.2025 год.</h2>
+            <div className={styles.vidddeo}>
+              <iframe
+                width="720"
+                height="405"
+                src="https://rutube.ru/play/embed/3820b6b62148dd940aa64bdf4da694ae/"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <div>
+              <h2 className={styles.videoText}>День 02.05.2025 год.</h2>
+            <div className={styles.vidddeo}>
+              <iframe
+                src="https://rutube.ru/play/embed/ff313741f459e4889bcf9c6a1eaec4a1/"
+                allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
         </div>
         <div>
-          <div className={styles.video}>
-            <center>
+          <div>
               <h2 className={styles.videoText}>День 20.04.2025 год.</h2>
-            </center>
             <div className={styles.vidddeo}>
               <iframe
                 width="720"
@@ -82,16 +84,27 @@ export default function Home() {
               ></iframe>
             </div>
           </div>
-          <div className={styles.video}>
-            <center>
+          <div>
               <h2 className={styles.videoText}>День 23.04.2025 год.</h2>
-            </center>
             <div className={styles.vidddeo}>
               <iframe
                 width="720"
                 height="405"
                 src="https://rutube.ru/play/embed/79ae842ced975391dfd9780f3e89103b/"
                 allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <div>
+              <h2 className={styles.videoText}>День 12.05.2025 год.</h2>
+            <div className={styles.vidddeo}>
+              <iframe
+                width="720"
+                height="405"
+                src="https://rutube.ru/play/embed/9026d5de08b4a9923a1295f9a369be62/"
                 webkitAllowFullScreen
                 mozallowfullscreen
                 allowFullScreen
