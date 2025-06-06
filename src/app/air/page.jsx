@@ -30,8 +30,8 @@ export default function Home() {
       <div className={styles.section}>
         <div>
           <div>
-             <h2 className={styles.videoText}>День 19.04.2025 год.</h2>
-           <div className={styles.vidddeo}>
+            <h2 className={styles.videoText}>День 19.04.2025 год.</h2>
+            <div className={styles.vidddeo}>
               <iframe
                 width="720"
                 height="405"
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-              <h2 className={styles.videoText}>День 09 и 11.05.2025 год.</h2>
+            <h2 className={styles.videoText}>День 09 и 11.05.2025 год.</h2>
             <div className={styles.vidddeo}>
               <iframe
                 width="720"
@@ -57,7 +57,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-              <h2 className={styles.videoText}>День 02.05.2025 год.</h2>
+            <h2 className={styles.videoText}>День 02.05.2025 год.</h2>
             <div className={styles.vidddeo}>
               <iframe
                 src="https://rutube.ru/play/embed/ff313741f459e4889bcf9c6a1eaec4a1/"
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div>
           <div>
-              <h2 className={styles.videoText}>День 20.04.2025 год.</h2>
+            <h2 className={styles.videoText}>День 20.04.2025 год.</h2>
             <div className={styles.vidddeo}>
               <iframe
                 width="720"
@@ -85,7 +85,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-              <h2 className={styles.videoText}>День 23.04.2025 год.</h2>
+            <h2 className={styles.videoText}>День 23.04.2025 год.</h2>
             <div className={styles.vidddeo}>
               <iframe
                 width="720"
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-              <h2 className={styles.videoText}>День 12.05.2025 год.</h2>
+            <h2 className={styles.videoText}>День 12.05.2025 год.</h2>
             <div className={styles.vidddeo}>
               <iframe
                 width="720"
@@ -109,6 +109,50 @@ export default function Home() {
                 mozallowfullscreen
                 allowFullScreen
               ></iframe>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <h2 className={styles.videoText}>День 20.04.2025 год.</h2>
+            <div className={styles.vidddeo}>
+              <iframe
+                width="720"
+                height="405"
+                src="https://rutube.ru/play/embed/6d3c7f825bbcacdad80c9d82fba61597/"
+                allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <div>
+            <h2 className={styles.videoText}>День 23.04.2025 год.</h2>
+            <div className={styles.vidddeo}>
+              <iframe
+                width="720"
+                height="405"
+                src="https://rutube.ru/play/embed/79ae842ced975391dfd9780f3e89103b/"
+                allow="clipboard-write; autoplay"
+                webkitAllowFullScreen
+                mozallowfullscreen
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+          <div>
+            <h2 className={styles.videoText}>День 03.06.2025 год.</h2>
+            <div className={styles.vidddeo}>
+              <iframe 
+              width="720"
+              height="405"
+              src="https://rutube.ru/play/embed/3cf9fadb73a8aa50f6e21b335bd5b38d/?p=XFU4dzMVE86TZXeSPMsCjQ"
+              allow="clipboard-write; autoplay"
+              webkitAllowFullScreen
+              mozallowfullscreen
+              allowFullScreen>
+              </iframe>
             </div>
           </div>
         </div>

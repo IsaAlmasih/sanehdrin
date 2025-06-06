@@ -14,7 +14,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -37,12 +37,12 @@
 }
 
 .section {
-  width: 100%;
+  width: 70%;
   max-width: 1300px;
   justify-content: center;
+  text-align: center;
   display: flex;
   flex-direction: row;
-  gap: 30px;
 }
 
 .about {
@@ -82,7 +82,7 @@
 }
 
 
-@media (min-width: 390px) {
+/* @media (min-width: 390px) {
   .intro {
     font-size: 15px;
     text-align: center;
@@ -120,6 +120,7 @@
     margin-top: 25px;
   }
 }
+  */
 
 .footer {
   background-color: rgb(150, 150, 150);
